@@ -1,0 +1,63 @@
+Summary
+  Generated on: 5/14/2024 - 9:46:13 PM
+  Coverage date: 5/14/2024 - 9:46:09 PM
+  Parser: Cobertura
+  Assemblies: 2
+  Classes: 41
+  Files: 41
+  Line coverage: 69.0%
+  Covered lines: 567
+  Uncovered lines: 254
+  Coverable lines: 821
+  Total lines: 1783
+  Branch coverage: 89.8% (151 of 168)
+  Covered branches: 151
+  Total branches: 168
+  Method coverage: 74.8% (122 of 163)
+  Covered methods: 122
+  Total methods: 163
+
+Domain                                                86.6%
+  Domain.DTOs.EventDTO.EventForCreate                100.0%
+  Domain.DTOs.EventDTO.EventForRead                  100.0%
+  Domain.DTOs.EventDTO.EventForUpdate                100.0%
+  Domain.DTOs.UserDTO.UserForCreate                  100.0%
+  Domain.DTOs.UserDTO.UserForForgotPassword          100.0%
+  Domain.DTOs.UserDTO.UserForLogin                   100.0%
+  Domain.DTOs.UserDTO.UserForRead                    100.0%
+  Domain.DTOs.UserDTO.UserForResetPassword           100.0%
+  Domain.DTOs.UserDTO.UserForUpdate                  100.0%
+  Domain.DTOs.WeatherDTO.WeatherForCreate            100.0%
+  Domain.DTOs.WeatherDTO.WeatherForRead              100.0%
+  Domain.DTOs.WeatherDTO.WeatherForUpdate            100.0%
+  Domain.Entities.Event                              100.0%
+  Domain.Entities.PasswordHashResult                 100.0%
+  Domain.Entities.User                                87.5%
+  Domain.Entities.Weather                             88.8%
+  Domain.Exceptions.AlreadyExistException            100.0%
+  Domain.Exceptions.NotFoundException                100.0%
+  Domain.ResponseMessage.ErrorMessage                100.0%
+  Domain.ResponseMessage.SuccessMessage                0.0%
+
+Infrastructure                                        66.4%
+  Infrastructure.Configuration.EmailConfig           100.0%
+  Infrastructure.Configuration.EventConfiguration      0.0%
+  Infrastructure.Configuration.OpenWeatherAPIConfig  100.0%
+  Infrastructure.Configuration.UserConfiguration       0.0%
+  Infrastructure.Configuration.WeatherConfiguration    0.0%
+  Infrastructure.EventContext                          0.0%
+  Infrastructure.Extensions.Mapping                  100.0%
+  Infrastructure.Repository.EventRepository            0.0%
+  Infrastructure.Repository.RepositoryBase<T>          0.0%
+  Infrastructure.Repository.UserRepository             0.0%
+  Infrastructure.Repository.WeatherRepository          0.0%
+  Infrastructure.Service.BackgroundService             0.0%
+  Infrastructure.Service.CacheService                  0.0%
+  Infrastructure.Service.EmailService                 56.9%
+  Infrastructure.Service.EventService                100.0%
+  Infrastructure.Service.HashService                   0.0%
+  Infrastructure.Service.OpenWeatherService          100.0%
+  Infrastructure.Service.UserService                 100.0%
+  Infrastructure.Service.WeatherService              100.0%
+  Infrastructure.TodoContextFactory                    0.0%
+  Infrastructure.UnitOfWork.UnitOfWork                 0.0%
